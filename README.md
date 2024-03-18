@@ -20,7 +20,7 @@ Pomofocus is a customizable pomodoro timer that works on desktop & mobile browse
 
 ## Live Demo
 
-[Live Demo Link](https://pomodo-dragon.netlify.app/)
+[Live Demo Link](https://pomofocus-lite.vercel.app/)
 
 ## Getting Started
 
