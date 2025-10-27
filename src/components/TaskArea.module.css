@@ -1,0 +1,62 @@
+    .taskContainer {
+  margin-top: 20px;
+  padding-bottom: 10px; /* Jarak bawah */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 1.1rem; /* Sedikit lebih besar */
+  font-weight: bold;
+  color: white; /* Teks putih */
+}
+
+.headerMenuButton {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+  display: flex; /* Agar icon center */
+  align-items: center;
+  justify-content: center;
+}
+
+.headerMenuButton:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.divider {
+  border: none;
+  border-top: 2px solid rgba(255, 255, 255, 0.6); /* Garis lebih tebal & terang */
+  margin-bottom: 20px; /* Jarak bawah garis */
+}
+
+.addTaskButton {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px; /* Jarak atas dari TaskList */
+  font-size: 1rem; /* Ukuran font */
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.8); /* Warna teks agak transparan */
+  background-color: rgba(0, 0, 0, 0.1); /* Latar belakang agak gelap */
+  border: 2px dashed rgba(255, 255, 255, 0.4); /* Border putus-putus */
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; /* Jarak antara ikon dan teks */
+  transition: background-color 0.2s;
+}
+
+.addTaskButton:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}

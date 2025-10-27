@@ -1,0 +1,59 @@
+/* GANTI SEMUA ISI FILE INI */
+/* src/components/TaskForm.module.css */
+
+/* Hapus style .form, .input, .button yang lama jika masih ada */
+
+.formExpanded {
+  background-color: white; /* Latar belakang putih */
+  padding: 15px;
+  border-radius: 8px; /* Sudut melengkung */
+  margin-bottom: 20px; /* Jarak bawah */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sedikit bayangan */
+}
+
+.inputExpanded {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px 0; /* Padding atas/bawah */
+  color: #333; /* Warna teks gelap */
+  border-bottom: 1px solid #eee; /* Garis bawah tipis */
+  margin-bottom: 10px; /* Jarak ke tombol */
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end; /* Tombol ke kanan */
+  gap: 10px; /* Jarak antar tombol */
+  margin-top: 15px; /* Jarak atas dari input */
+}
+
+.cancelButton,
+.saveButton {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cancelButton {
+  background-color: #eee; /* Abu-abu muda */
+  color: #555;
+}
+
+.cancelButton:hover {
+  background-color: #ddd;
+}
+
+.saveButton {
+  background-color: #333; /* Hitam/gelap */
+  color: white;
+}
+
+.saveButton:hover {
+  background-color: #555;
+}

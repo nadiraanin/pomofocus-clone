@@ -6,6 +6,10 @@
   padding-bottom: 0.75rem;
   color: white;
   transition: background-color 0.5s ease-in-out 0s;
+  
+  /* --- TAMBAHKAN INI --- */
+  min-height: 100vh; /* 1. Paksa container agar tingginya pas 1 layar */
+  overflow: hidden; /* 2. Cegah container ini (latar belakang) ikut scroll */
 }
 
 .short_break {
